@@ -162,10 +162,6 @@ nav.vertical > ul > li > div > ul > li:hover > a {
   padding: 10px 0 10px 50px;
 }
 
-.linkedinbutton {
-  position: fixed;
-}
-
 .aboutparaelement {
 
   background-color: #000000;
@@ -179,14 +175,23 @@ nav.vertical > ul > li > div > ul > li:hover > a {
 
 }
 
-.abouttext {
-    font-size: 13.5px;
-    position: fixed;
-    width: 830px;
-    text-align: center;
-    top: 165px;
-    left: 432px;
-    color: #898989;
+.holder {
+  background: #000000;
+  position: fixed;
+  height: 150px;
+  width: 400px;
+  top: 550px;
+  left: 858px;
 }
 
+.card {
+  position: relative;
+}
 
+.ProjectsText {
+  color: #898989;
+  width: 400px;
+  position: fixed;
+  top: 360px;
+  left: 430px;
+}
