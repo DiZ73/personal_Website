@@ -80,8 +80,8 @@ div.wrapper {
   margin: 20px auto;
   width: 200px;
   position: relative;
-  left: -425.7px;
-  top: -185px;
+  left: -362.7px;
+  top: -608px;
 }
 
 p {
@@ -175,17 +175,40 @@ nav.vertical > ul > li > div > ul > li:hover > a {
 
 }
 
-.holder {
+.holder1 {
   background: #000000;
   position: fixed;
   height: 150px;
   width: 400px;
-  top: 550px;
+  top: 560px;
   left: 858px;
 }
 
-.card {
-  position: relative;
+.card1 {
+  position: fixed;
+  left: 430px;
+  top: 200px;
+  height: 150px;
+  width: 400px;
+  background: #000000;
+}
+
+.card2 {
+  position: fixed;
+  left: 858px;
+  top: 200px;
+  height: 200px;
+  width: 400px;
+  background: #000000;
+}
+
+.card3 {
+  position: fixed;
+  left: 858px;
+  top: 385px;
+  height: 200px;
+  width: 400px;
+  background: #000000;
 }
 
 .ProjectsText {
