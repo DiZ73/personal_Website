@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>@DKroell Website</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div style="width:16%;height:28%; vertical-align:bottom; position:fixed;bottom:73%;">
+	<%=image_tag("Hooded_rogue.png", :style=> 'width:100%;height:125%; margin-left:5%;margin-bottom:5%;position:static;')%>
+</div>
+
+<div style="width:17%; height:29.3%; bottom:39.8%; display: inline-block;
+            border-style:solid; position:fixed; background-color:silver;">
+
+            <%= link_to image_tag('home_layout.jpg', :style=>'width:100%;height:32.5%;'), home_index_path, {:style=> 'position: center;'}%>
+            <%= link_to image_tag('info_layout.jpg', :style=>'width:100%;height:32.5%;'), info_index_path, {:style=> 'position: center;'}%>
+            <%= link_to image_tag('blog_layout.jpg', :style=>'width:100%;height:32.5%;'), posts_path, {:style=> 'position: center;'}%>
+
+</div>
+<div style="display: inline-block; vertical-align:top;">
+	<%= yield %>
+</div>
+
+</body>
+</html>
